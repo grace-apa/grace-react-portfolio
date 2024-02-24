@@ -35,14 +35,14 @@ h1 {
 /* Jumbotron/hero section  */
 
 .button {
-  background-color: black;
-  border: none;
+  background-color: black !important;
+  border: none !important;
   left: 50px;
 }
 
 .button:hover {
-  background-color: white;
-  color: black;
+  background-color: white !important;
+  color: black !important;
   font-weight: bold;
 }
 
@@ -50,7 +50,7 @@ h1 {
   background-image: url(./images/image4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(80vh - 25px);
+  height: 100vh;
   display: flex;
   align-items: center;
   background-position: bottom;
@@ -63,9 +63,12 @@ h1 {
 }
 
 .aboutMe {
+  text-align: center;
+  padding-top: 50px;
   padding-left: 50px;
   padding-right: 45px;
-  font-size: 16px;
+  font-size: 24px;
+  justify-content: center;
 }
 
 .skillsButton {
@@ -92,7 +95,7 @@ h1 {
 }
 
 .card-title {
-  color: #ffc163;
+  color: white !important;
 }
 
 .colour {
@@ -103,11 +106,27 @@ h1 {
 }
 
 .html {
-  background-color: white;
-  color: black;
-  border: none;
-  padding: 1px 4px 1px 4px;
+  background-color: rgb(105, 52, 113) !important;
+  color: white !important;
+  border: none !important;
+  padding: 1px 7px 1px 7px !important;
   font-size: 12px;
+  justify-content: space-between !important;
+  border-radius: 15px;
+  justify-content: space-between !important;
+  margin: 0 5px;
+}
+
+.links {
+  background-color: rgb(105, 52, 113) !important;
+  color: white !important;
+  border: none !important;
+  padding: 1px 15px 1px 15px !important;
+  font-size: 12px;
+  justify-content: space-between !important;
+  border-radius: 12px;
+  justify-content: space-between !important;
+  margin: 0 20px;
 }
 
 .html:hover {
@@ -124,15 +143,19 @@ p {
   font-size: 14px;
 }
 
-.personal-photo,
-.music-photo,
-.fashion-image,
-.travel-image,
+.music-app,
+.password-photo,
+.weatherapp-image,
+.quiz-image,
 .love-image,
 .door-image {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.card-text {
+  color: white;
 }
 
 .footer {
@@ -170,4 +193,16 @@ p {
 
 .link:hover {
   text-decoration: underline;
+}
+
+.fullName {
+  color: white;
+}
+
+.formButton {
+  border-radius: 30px;
+  background-color: rgb(123, 21, 138);
+  color: white;
+  padding: 6px 10px 6px 10px;
+  border: none;
 }

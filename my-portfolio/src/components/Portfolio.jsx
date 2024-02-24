@@ -1,9 +1,9 @@
 import React from "react";
 import "../index.css";
-import previewportfolio from "../images/previewportfolio.png";
-import musicimage1 from "../images/musicimage1.jpg";
-import fashionimage1 from "../images/fashionimage1.jpg";
-import travelapp from "../images/travelapp.jpg";
+import musicfy from "../images/Musicfy.png";
+import generatepassword1 from "../images/generatepassword1.png";
+import Weatherapp from "../images/Weatherapp.png";
+import quizapp from "../images/quizcode.png";
 import loveapp from "../images/loveapp.jpg";
 import door from "../images/door.jpg";
 
@@ -19,21 +19,18 @@ const Portfolio = () => {
         <div className="row">
           <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div className="card h-100" style={{ width: "22rem" }}>
-              <a
-                href="https://grace-apa.github.io/portfolio-grace-apantaku/#contact"
-                target="_blank"
-              >
+              <a href="https://vilmaglynn.github.io/musicfy/" target="_blank">
                 <img
-                  src={previewportfolio}
-                  className="card-img-top personal-photo"
-                  alt="personal portfolio"
+                  src={musicfy}
+                  className="card-img-top music-app"
+                  alt="music app portfolio"
                 />
               </a>
               <div className="card-body colour">
-                <h5 className="card-title">Professional Portfolio</h5>
+                <h5 className="card-title">Musicfy</h5>
                 <p className="card-text">
-                  My professional web development portfolio using only HTML and
-                  CSS.
+                  An app inspired by Spotify app, it searches for an artists
+                  album and articles related to that artist.
                 </p>
                 <br />
                 <a href="#" className="btn btn-primary html">
@@ -42,23 +39,35 @@ const Portfolio = () => {
                 <a href="#" className="btn btn-primary html">
                   CSS
                 </a>
+                <a href="#" className="btn btn-primary html">
+                  JavaScript
+                </a>
+                <a href="#" className="btn btn-primary html">
+                  JQuery
+                </a>
+                <a href="#" className="btn btn-primary html">
+                  API
+                </a>
               </div>
             </div>
           </div>
           <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div className="card h-100" style={{ width: "22rem" }}>
-              <a href="#">
+              <a
+                href="https://grace-apa.github.io/-password-generator/"
+                target="_blank"
+              >
                 <img
-                  src={musicimage1}
-                  className="card-img-top music-photo"
-                  alt="music note background image"
+                  src={generatepassword1}
+                  className="card-img-top password-photo"
+                  alt="password generator background image"
                 />
               </a>
               <div className="card-body colour">
-                <h5 className="card-title">LyricLab Challenge</h5>
+                <h5 className="card-title">Password Generator</h5>
                 <p className="card-text">
-                  A game that allows users to learn the lyrics to their
-                  favourite songs.
+                  An application that you can use to generate a random password
+                  based on criteria selected.
                 </p>
                 <br />
                 <a href="#" className="btn btn-primary html">
@@ -75,24 +84,27 @@ const Portfolio = () => {
           </div>
           <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div className="card h-100" style={{ width: "22rem" }}>
-              <a href="#">
+              <a
+                href="https://grace-apa.github.io/Weather-dashboard/"
+                target="_blank"
+              >
                 <img
-                  src={fashionimage1}
-                  className="card-img-top fashion-image"
-                  alt="digital fashion app"
+                  src={Weatherapp}
+                  className="card-img-top weatherapp-image"
+                  alt="digital weather app"
                 />
               </a>
               <div className="card-body colour">
-                <h5 className="card-title">StyleHub App</h5>
+                <h5 className="card-title">Weather Dashboard App</h5>
                 <p className="card-text">
-                  Share your shopping experience with friends who have a similar
-                  style to you.
+                  A weather dashboard app that features dynamically updated HTML
+                  and CSS.
                 </p>
                 <br />
                 <a href="#" className="btn btn-primary html">
                   HTML
                 </a>
-                <a href="#" cclassName="btn btn-primary html">
+                <a href="#" className="btn btn-primary html">
                   CSS
                 </a>
                 <a href="#" className="btn btn-primary html">
@@ -107,17 +119,22 @@ const Portfolio = () => {
         <div className="row">
           <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div className="card h-100" style={{ width: "22rem" }}>
-              <a href="#">
+              <a
+                href="https://grace-apa.github.io/multiple-choice-quiz/"
+                target="_blank"
+              >
                 <img
-                  src={travelapp}
-                  className="card-img-top travel-image"
-                  alt="group travel app"
+                  src={quizapp}
+                  className="card-img-top quiz-image"
+                  alt="coding quiz app"
                 />
               </a>
               <div className="card-body colour">
-                <h5 className="card-title">Group Travel App</h5>
+                <h5 className="card-title">Coding Quiz Challenge</h5>
                 <p className="card-text">
-                  Travel application making group travel easy and convenient.
+                  A timed coding quiz with multiple-choice questions. This app
+                  features dynamically updated HTML and CSS powered by
+                  JavaScript code.
                 </p>
                 <br />
                 <a href="#" className="btn btn-primary html">
@@ -145,7 +162,7 @@ const Portfolio = () => {
                 <h5 className="card-title">LOTB App</h5>
                 <p className="card-text">
                   An online dating application similar to Bumble but with a
-                  twist.
+                  twist. (In progress)
                 </p>
                 <br />
                 <a href="#" className="btn btn-primary html">
@@ -173,9 +190,10 @@ const Portfolio = () => {
                 <h5 className="card-title">OpenNetwork App</h5>
                 <p className="card-text">
                   A networking and mentoring application for tech professionals.
+                  (In progress)
                 </p>
                 <br />
-                <a href="#" className="btn btn-primary html">
+                <a href="#" className="btn btn-primary ">
                   HTML
                 </a>
                 <a href="#" className="btn btn-primary html">
