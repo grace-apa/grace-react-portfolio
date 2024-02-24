@@ -6,9 +6,9 @@ import "../index.css";
 const About = () => {
   return (
     <div className="customDiv">
-      <div className="container-fluid text-center" id="introAbout">
-        <div className="row">
-          <div className="col-md-6 order-md-first">
+      <div className="container-fluid" id="introAbout">
+        <div className="row align-items-center justify-content-center">
+          <div className="col-md-6 text-center">
             <h2>About Me</h2>
             <br />
             <p className="aboutMe">

@@ -14,7 +14,7 @@ const LandingPage = () => {
           <h1 className="display-5 fw-bold fullName">Grace Apantaku</h1>
           <a href="https://www.linkedin.com/in/graceapantaku/" target="_blank">
             <button className="btn btn-primary btn-lg button" type="button">
-              From Influencer Marketer to Frontend Developer
+              From Influencer Marketer to Junior Frontend Developer
             </button>
           </a>
           <br />
@@ -26,20 +26,20 @@ const LandingPage = () => {
               target="_blank"
               className="btn btn-primary links"
             >
-              GitHub
+              <strong>GitHub</strong>
             </a>
             <a
               href="https://www.linkedin.com/in/graceapantaku/"
               target="_blank"
               className="btn btn-primary links"
             >
-              LinkedIn
+              <strong>LinkedIn</strong>
             </a>
             <a
               href="mailto:grace.apantaku1@gmail.com"
               className="btn btn-primary links"
             >
-              Email
+              <strong>Email</strong>
             </a>
           </div>
         </div>

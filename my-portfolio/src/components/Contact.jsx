@@ -8,19 +8,33 @@ const ContactForm = () => {
       <br />
       <form>
         <div className="form-group">
-          <label htmlFor="name">Name: </label>
+          <label htmlFor="name">
+            <strong> Your Name</strong>{" "}
+          </label>
           <br />
           <input type="text" id="name" name="name" required />
         </div>
         <br />
         <div className="form-group">
-          <label htmlFor="email">Email: </label>
+          <label htmlFor="email">
+            <strong>Your Email</strong>{" "}
+          </label>
           <br />
           <input type="email" id="email" name="email" required />
         </div>
         <br />
         <div className="form-group">
-          <label htmlFor="message">Message: </label>
+          <label htmlFor="subject">
+            <strong>Subject:</strong>{" "}
+          </label>
+          <br />
+          <input type="subject" id="subject" name="subject" required />
+        </div>
+        <br />
+        <div className="form-group">
+          <label htmlFor="message">
+            <strong>Message:</strong>{" "}
+          </label>
           <br />
           <textarea id="message" name="message" rows="4" required />
         </div>
@@ -29,6 +43,31 @@ const ContactForm = () => {
           Submit
         </button>
       </form>
+      <br />
+      <br />
+      <br />
+      <div>
+        <a
+          href="https://github.com/grace-apa"
+          target="_blank"
+          className="btn btn-primary contactlink"
+        >
+          <strong>GitHub</strong>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/graceapantaku/"
+          target="_blank"
+          className="btn btn-primary contactlink"
+        >
+          <strong>LinkedIn</strong>
+        </a>
+        <a
+          href="mailto:grace.apantaku1@gmail.com"
+          className="btn btn-primary contactlink"
+        >
+          <strong>Email</strong>
+        </a>
+      </div>
     </div>
   );
 };

@@ -71,6 +71,15 @@ h1 {
   justify-content: center;
 }
 
+.cvspec {
+  text-align: left;
+  /* padding-top: 50px; */
+  /* padding-left: 50px;
+  padding-right: 45px; */
+  font-size: 18px;
+  /* justify-content: center; */
+}
+
 .skillsButton {
   background-color: black;
   color: white;
@@ -121,16 +130,24 @@ h1 {
   background-color: rgb(105, 52, 113) !important;
   color: white !important;
   border: none !important;
-  padding: 1px 15px 1px 15px !important;
+  padding: 1px 13px 1px 13px !important;
   font-size: 12px;
   justify-content: space-between !important;
-  border-radius: 12px;
+  border-radius: 30px;
   justify-content: space-between !important;
   margin: 0 20px;
 }
 
+.links:hover {
+  border: 5px !important;
+}
+
 .html:hover {
   background-color: black;
+}
+
+.github {
+  color: white;
 }
 
 .card-img-top {
@@ -203,6 +220,22 @@ p {
   border-radius: 30px;
   background-color: rgb(123, 21, 138);
   color: white;
-  padding: 6px 10px 6px 10px;
+  padding: 6px 14px 6px 14px;
   border: none;
+}
+
+#message {
+  width: 50%;
+}
+
+.contactlink {
+  background-color: rgb(0, 0, 0) !important;
+  color: white !important;
+  border: none !important;
+  padding: 1px 13px 1px 13px !important;
+  font-size: 12px;
+  justify-content: space-between !important;
+  border-radius: 30px;
+  justify-content: space-between !important;
+  margin: 0 20px;
 }

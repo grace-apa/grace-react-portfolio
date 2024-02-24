@@ -4,13 +4,14 @@ import musicfy from "../images/Musicfy.png";
 import generatepassword1 from "../images/generatepassword1.png";
 import Weatherapp from "../images/Weatherapp.png";
 import quizapp from "../images/quizcode.png";
-import loveapp from "../images/loveapp.jpg";
+import teamprofile from "../images/teamprofile.png";
 import door from "../images/door.jpg";
 
 const Portfolio = () => {
   return (
     <div>
       <h2 className="workHeading">My work</h2>
+      <h6>(Click the image to see deployed version)</h6>
       <br />
       <div
         className="container-fluid content justify-content-center"
@@ -48,6 +49,14 @@ const Portfolio = () => {
                 <a href="#" className="btn btn-primary html">
                   API
                 </a>
+                <br />
+                <br />
+                <a
+                  className="github"
+                  href="https://github.com/grace-apa/musicfy"
+                >
+                  GitHub
+                </a>
               </div>
             </div>
           </div>
@@ -79,6 +88,14 @@ const Portfolio = () => {
                 <a href="#" className="btn btn-primary html">
                   JavaScript
                 </a>
+                <br />
+                <br />
+                <a
+                  className="github"
+                  href="https://github.com/grace-apa/-password-generator"
+                >
+                  GitHub
+                </a>
               </div>
             </div>
           </div>
@@ -109,6 +126,14 @@ const Portfolio = () => {
                 </a>
                 <a href="#" className="btn btn-primary html">
                   JavaScript
+                </a>
+                <br />
+                <br />
+                <a
+                  className="github"
+                  href="https://github.com/grace-apa/Weather-dashboard"
+                >
+                  GitHub
                 </a>
               </div>
             </div>
@@ -146,6 +171,14 @@ const Portfolio = () => {
                 <a href="#" className="btn btn-primary html">
                   JavaScript
                 </a>
+                <br />
+                <br />
+                <a
+                  className="github"
+                  href="https://github.com/grace-apa/multiple-choice-quiz"
+                >
+                  GitHub
+                </a>
               </div>
             </div>
           </div>
@@ -153,16 +186,17 @@ const Portfolio = () => {
             <div className="card h-100" style={{ width: "22rem" }}>
               <a href="#">
                 <img
-                  src={loveapp}
+                  src={teamprofile}
                   className="card-img-top love-image"
                   alt="love on the brain image"
                 />
               </a>
               <div className="card-body colour">
-                <h5 className="card-title">LOTB App</h5>
+                <h5 className="card-title">Team Profile Generator</h5>
                 <p className="card-text">
-                  An online dating application similar to Bumble but with a
-                  twist. (In progress)
+                  An application that takes in information about employees on a
+                  software engineering team, then generates an HTML webpage that
+                  displays summaries for each person.
                 </p>
                 <br />
                 <a href="#" className="btn btn-primary html">
@@ -173,6 +207,14 @@ const Portfolio = () => {
                 </a>
                 <a href="#" className="btn btn-primary html">
                   JavaScript
+                </a>
+                <br />
+                <br />
+                <a
+                  className="github"
+                  href="https://github.com/grace-apa/team-profile-generator"
+                >
+                  GitHub
                 </a>
               </div>
             </div>
@@ -193,7 +235,7 @@ const Portfolio = () => {
                   (In progress)
                 </p>
                 <br />
-                <a href="#" className="btn btn-primary ">
+                <a href="#" className="btn btn-primary html">
                   HTML
                 </a>
                 <a href="#" className="btn btn-primary html">
