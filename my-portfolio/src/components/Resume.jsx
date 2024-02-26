@@ -6,13 +6,13 @@ const Resume = () => {
       <div className="container-fluid text-center" id="introAbout">
         <div className="row">
           <div class="col-md-6 order-md-first">
-            <h2>EDUCATION</h2>
+            <h2>Education</h2>
             <br />
             <h3>Bachelor of Science (B.S.) - Pharmaceutical Sciences </h3>
             <h5>Sep 2010 - Jul 2013</h5>
             <h5>University of Greenwich, London</h5>
             <br />
-            <h2>EXPERIENCE</h2>
+            <h2>Professional Experience</h2>
             <br />
             <h5>
               <strong>Sports Talent Coordinator, May 2023 - Jan 2024</strong>

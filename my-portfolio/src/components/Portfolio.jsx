@@ -5,12 +5,12 @@ import generatepassword1 from "../images/generatepassword1.png";
 import Weatherapp from "../images/Weatherapp.png";
 import quizapp from "../images/quizcode.png";
 import teamprofile from "../images/teamprofile.png";
-import door from "../images/door.jpg";
+import portfoliobootstrap from "../images/Bootstrap.png";
 
 const Portfolio = () => {
   return (
     <div>
-      <h2 className="workHeading">My work</h2>
+      <h2 className="workHeading">Projects</h2>
       <h6>(Click the image to see deployed version)</h6>
       <br />
       <div
@@ -46,14 +46,12 @@ const Portfolio = () => {
                 <a href="#" className="btn btn-primary html">
                   JQuery
                 </a>
-                <a href="#" className="btn btn-primary html">
-                  API
-                </a>
                 <br />
                 <br />
                 <a
                   className="github"
                   href="https://github.com/grace-apa/musicfy"
+                  target="_blank"
                 >
                   GitHub
                 </a>
@@ -93,6 +91,7 @@ const Portfolio = () => {
                 <a
                   className="github"
                   href="https://github.com/grace-apa/-password-generator"
+                  target="_blank"
                 >
                   GitHub
                 </a>
@@ -132,6 +131,7 @@ const Portfolio = () => {
                 <a
                   className="github"
                   href="https://github.com/grace-apa/Weather-dashboard"
+                  target="_blank"
                 >
                   GitHub
                 </a>
@@ -176,6 +176,7 @@ const Portfolio = () => {
                 <a
                   className="github"
                   href="https://github.com/grace-apa/multiple-choice-quiz"
+                  target="_blank"
                 >
                   GitHub
                 </a>
@@ -213,6 +214,7 @@ const Portfolio = () => {
                 <a
                   className="github"
                   href="https://github.com/grace-apa/team-profile-generator"
+                  target="_blank"
                 >
                   GitHub
                 </a>
@@ -221,18 +223,22 @@ const Portfolio = () => {
           </div>
           <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div className="card h-100" style={{ width: "22rem" }}>
-              <a href="#">
+              <a
+                href="https://grace-apa.github.io/Bootstrap-Portfolio/"
+                target="_blank"
+              >
                 <img
-                  src={door}
+                  src={portfoliobootstrap}
                   className="card-img-top door-image"
                   alt="closed door and stairs image"
                 />
               </a>
               <div className="card-body colour">
-                <h5 className="card-title">OpenNetwork App</h5>
+                <h5 className="card-title">Bootstrap Portfolio</h5>
                 <p className="card-text">
-                  A networking and mentoring application for tech professionals.
-                  (In progress)
+                  The layout of my portfolio was recreated and improved using
+                  Bootstrap's CSS Framework. The goal was to minimize the use of
+                  media queries.
                 </p>
                 <br />
                 <a href="#" className="btn btn-primary html">
@@ -242,7 +248,16 @@ const Portfolio = () => {
                   CSS
                 </a>
                 <a href="#" className="btn btn-primary html">
-                  JavaScript
+                  Bootstrap
+                </a>
+                <br />
+                <br />
+                <a
+                  className="github"
+                  href="https://github.com/grace-apa/Bootstrap-Portfolio?tab=readme-ov-file"
+                  target="_blank"
+                >
+                  GitHub
                 </a>
               </div>
             </div>
