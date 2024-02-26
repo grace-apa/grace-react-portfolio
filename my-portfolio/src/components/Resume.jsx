@@ -1,11 +1,12 @@
-import React from "react";
+// import React from "react";
 
-const Resume = () => {
-  return (
-    <div className="customDiv">
-      <div className="container-fluid text-center" id="introAbout">
-        <div className="row">
-          <div class="col-md-6 order-md-first">
+// const Resume = () => {
+//   return (
+//     <div className="customDiv">
+//       <div className="container-fluid text-center" id="introAbout">
+//         <div className="row">
+{
+  /* <div class="col-md-6 order-md-first">
             <h2>Education</h2>
             <br />
             <h3>Bachelor of Science (B.S.) - Pharmaceutical Sciences </h3>
@@ -41,8 +42,10 @@ const Resume = () => {
                 campaigns tailored to individual talent and client objectives.
               </p>
             </p>
-          </div>
-          <div className="col-md-6">
+          </div> */
+}
+{
+  /* <div className="col-md-6">
             <h2>My Skills</h2>
             <br />
             <button className="skillsButton">HTML</button>
@@ -64,4 +67,5 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Resume; */
+}

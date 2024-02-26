@@ -48,7 +48,11 @@ const Header = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/resume">
+                <a
+                  className="nav-link"
+                  href="/grace-react-portfolio/assets/CV.pdf"
+                  target="_blank"
+                >
                   Resume
                 </a>
               </li>
