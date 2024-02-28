@@ -2,71 +2,75 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="contact-form">
-      <h2>Contact Me</h2>
-      <br />
-      <br />
-      <form>
-        <div className="form-group">
-          <label htmlFor="name">
-            <strong> Your Name</strong>{" "}
-          </label>
+    <div className="d-flex justify-content-center">
+      <div className="p-5 mb-4 bg-body-tertiary rounded-3 abstractBackground">
+        <div className="contact-form">
+          <h2>Contact Me</h2>
           <br />
-          <input type="text" id="name" name="name" required />
-        </div>
-        <br />
-        <div className="form-group">
-          <label htmlFor="email">
-            <strong>Your Email</strong>{" "}
-          </label>
           <br />
-          <input type="email" id="email" name="email" required />
-        </div>
-        <br />
-        <div className="form-group">
-          <label htmlFor="subject">
-            <strong>Subject:</strong>{" "}
-          </label>
+          <form>
+            <div className="form-group">
+              <label htmlFor="name">
+                <strong> Your Name</strong>{" "}
+              </label>
+              <br />
+              <input type="text" id="name" name="name" required />
+            </div>
+            <br />
+            <div className="form-group">
+              <label htmlFor="email">
+                <strong>Your Email</strong>{" "}
+              </label>
+              <br />
+              <input type="email" id="email" name="email" required />
+            </div>
+            <br />
+            <div className="form-group">
+              <label htmlFor="subject">
+                <strong>Subject:</strong>{" "}
+              </label>
+              <br />
+              <input type="subject" id="subject" name="subject" required />
+            </div>
+            <br />
+            <div className="form-group">
+              <label htmlFor="message">
+                <strong>Message:</strong>{" "}
+              </label>
+              <br />
+              <textarea id="message" name="message" rows="4" required />
+            </div>
+            <br />
+            <button className="formButton" type="submit">
+              Submit
+            </button>
+          </form>
           <br />
-          <input type="subject" id="subject" name="subject" required />
-        </div>
-        <br />
-        <div className="form-group">
-          <label htmlFor="message">
-            <strong>Message:</strong>{" "}
-          </label>
           <br />
-          <textarea id="message" name="message" rows="4" required />
+          <br />
+          <div>
+            <a
+              href="https://github.com/grace-apa"
+              target="_blank"
+              className="btn btn-primary contactlink"
+            >
+              <strong>GitHub</strong>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/graceapantaku/"
+              target="_blank"
+              className="btn btn-primary contactlink"
+            >
+              <strong>LinkedIn</strong>
+            </a>
+            <a
+              href="mailto:grace.apantaku1@gmail.com"
+              className="btn btn-primary contactlink"
+            >
+              <strong>Email</strong>
+            </a>
+          </div>
         </div>
-        <br />
-        <button className="formButton" type="submit">
-          Submit
-        </button>
-      </form>
-      <br />
-      <br />
-      <br />
-      <div>
-        <a
-          href="https://github.com/grace-apa"
-          target="_blank"
-          className="btn btn-primary contactlink"
-        >
-          <strong>GitHub</strong>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/graceapantaku/"
-          target="_blank"
-          className="btn btn-primary contactlink"
-        >
-          <strong>LinkedIn</strong>
-        </a>
-        <a
-          href="mailto:grace.apantaku1@gmail.com"
-          className="btn btn-primary contactlink"
-        >
-          <strong>Email</strong>
-        </a>
       </div>
     </div>
   );

@@ -239,3 +239,8 @@ p {
   justify-content: space-between !important;
   margin: 0 20px;
 }
+
+.form-group,
+.contact-form {
+  color: white;
+}

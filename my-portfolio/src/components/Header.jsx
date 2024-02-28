@@ -50,7 +50,7 @@ const Header = () => {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="/grace-react-portfolio/assets/CV.pdf"
+                  href="https://drive.google.com/file/d/1L8mBa1ZR_jaSaxRiY_XqpHtMpXR_uN05/view?usp=sharing"
                   target="_blank"
                 >
                   Resume
