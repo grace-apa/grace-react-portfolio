@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Musicfy",
+      "description": "An app inspired by Spotify app, it searches for an artists album and articles related to that artist.",
+      "image": "../images/Musicfy.png",
+      "deployedLink": "https://vilmaglynn.github.io/musicfy/",
+      "githubLink": "https://github.com/grace-apa/musicfy",
+      "technologies": ["HTML", "CSS", "JavaScript", "JQuery"]
+    },
+    {
+      "name": "Password Generator",
+      "description": "An application that you can use to generate a random password based on criteria selected.",
+      "image": "../images/generatepassword1.png",
+      "deployedLink": "https://grace-apa.github.io/-password-generator/",
+      "githubLink": "https://github.com/grace-apa/-password-generator",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+
+    {
+        "name": "Weather Dashboard",
+        "description": "A weather dashboard app that features dynamically updated HTML and CSS.",
+        "image": "../images/Weatherapp.png",
+        "deployedLink": "https://grace-apa.github.io/Weather-dashboard/",
+        "githubLink": "https://github.com/grace-apa/Weather-dashboard",
+        "technologies": ["HTML", "CSS", "JavaScript"] 
+    },
+
+   {
+        "name": "Coding Quiz Challenge",
+        "description": "A timed coding quiz with multiple-choice questions. This app features dynamically updated HTML and CSS powered by JavaScript code.",
+        "image": "../images/quizcode.png",
+        "deployedLink": "https://grace-apa.github.io/multiple-choice-quiz/",
+        "githubLink": "https://github.com/grace-apa/multiple-choice-quiz",
+        "technologies": ["HTML", "CSS", "JavaScript"] 
+    },
+
+    {
+        "name": "Team Profile Generator",
+        "description": "An application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
+        "image": "../images/teamprofile.png",
+        "githubLink": "https://github.com/grace-apa/team-profile-generator",
+        "technologies": ["HTML", "CSS", "JavaScript"] 
+    },
+    {
+        "name": "Bootstrap Portfolio",
+        "description": "The layout of my portfolio was recreated and improved using Bootstrap's CSS Framework. The goal was to minimize the use of media queries.",
+        "image": "../images/Bootstrap.png",
+        "deployedLink": "https://grace-apa.github.io/Bootstrap-Portfolio/",
+        "githubLink": "https://github.com/grace-apa/Bootstrap-Portfolio?tab=readme-ov-file",
+        "technologies": ["HTML", "CSS", "Bootstrap"] 
+    }
+  ]
+  
