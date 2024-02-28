@@ -225,7 +225,7 @@ p {
 }
 
 #message {
-  width: 50%;
+  width: 100% !important;
 }
 
 .contactlink {

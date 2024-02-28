@@ -19,11 +19,13 @@ const About = () => {
               appealing user-friendly websites, and thrive on delivering
               seamless digital experiences through efficient written code. I am
               currently developing{" "}
-              <strong>skills in HTML, CSS, JavaScript,</strong> UI development,
-              REST APIs, GIT, and a variety of other frameworks, as part of edX
-              16-week Frontend Development Bootcamp. I’m learning and applying
-              the latest technologies, frameworks and best practices in web
-              design and development.
+              <strong>
+                skills in HTML, CSS, JavaScript, UI development, REST APIs, GIT,
+              </strong>{" "}
+              and a variety of other frameworks, as part of edX 16-week Frontend
+              Development Bootcamp. I’m learning and applying the latest
+              technologies, frameworks and best practices in web design and
+              development.
             </p>
           </div>
         </div>
