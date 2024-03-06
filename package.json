@@ -1,5 +1,6 @@
 {
   "name": "my-portfolio",
+  "homepage": "https://grace-apa.github.io/grace-react-portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
