@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/grace-react-portfolio/static/css/main.9a7c4ec3.css",
-    "main.js": "/grace-react-portfolio/static/js/main.33bf7e48.js",
-    "static/js/453.acca0757.chunk.js": "/grace-react-portfolio/static/js/453.acca0757.chunk.js",
-    "static/media/image4.jpg": "/grace-react-portfolio/static/media/image4.72fe3876de353a8df677.jpg",
-    "static/media/me.png": "/grace-react-portfolio/static/media/me.1f2fef27facc141cd317.png",
-    "static/media/Bootstrap.png": "/grace-react-portfolio/static/media/Bootstrap.18bc15e0ce478cc45580.png",
-    "static/media/teamprofile.png": "/grace-react-portfolio/static/media/teamprofile.505e8b6b869aaccb2ab2.png",
-    "static/media/Weatherapp.png": "/grace-react-portfolio/static/media/Weatherapp.5de5a5755215b55b32a0.png",
-    "static/media/generatepassword1.png": "/grace-react-portfolio/static/media/generatepassword1.03ca1f627b12c840b085.png",
-    "static/media/Musicfy.png": "/grace-react-portfolio/static/media/Musicfy.121bdc738fd2a15bc485.png",
-    "static/media/quizcode.png": "/grace-react-portfolio/static/media/quizcode.3190af7ac818e61899f6.png",
-    "index.html": "/grace-react-portfolio/index.html",
-    "main.9a7c4ec3.css.map": "/grace-react-portfolio/static/css/main.9a7c4ec3.css.map",
-    "main.33bf7e48.js.map": "/grace-react-portfolio/static/js/main.33bf7e48.js.map",
-    "453.acca0757.chunk.js.map": "/grace-react-portfolio/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/static/css/main.b72a68e4.css",
+    "main.js": "/static/js/main.3f3093ce.js",
+    "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
+    "static/media/image4.jpg": "/static/media/image4.72fe3876de353a8df677.jpg",
+    "static/media/me.png": "/static/media/me.1f2fef27facc141cd317.png",
+    "static/media/Bootstrap.png": "/static/media/Bootstrap.18bc15e0ce478cc45580.png",
+    "static/media/teamprofile.png": "/static/media/teamprofile.505e8b6b869aaccb2ab2.png",
+    "static/media/Weatherapp.png": "/static/media/Weatherapp.5de5a5755215b55b32a0.png",
+    "static/media/generatepassword1.png": "/static/media/generatepassword1.03ca1f627b12c840b085.png",
+    "static/media/Musicfy.png": "/static/media/Musicfy.121bdc738fd2a15bc485.png",
+    "static/media/quizcode.png": "/static/media/quizcode.3190af7ac818e61899f6.png",
+    "index.html": "/index.html",
+    "main.b72a68e4.css.map": "/static/css/main.b72a68e4.css.map",
+    "main.3f3093ce.js.map": "/static/js/main.3f3093ce.js.map",
+    "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a7c4ec3.css",
-    "static/js/main.33bf7e48.js"
+    "static/css/main.b72a68e4.css",
+    "static/js/main.3f3093ce.js"
   ]
 }
