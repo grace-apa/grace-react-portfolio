@@ -1,6 +1,5 @@
 import React from "react";
 import "../index.css";
-import projectsData from "./data/projects.json";
 import musicfy from "../images/Musicfy.png";
 import generatepassword1 from "../images/generatepassword1.png";
 import Weatherapp from "../images/Weatherapp.png";
