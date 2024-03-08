@@ -1,6 +1,6 @@
 import React from "react";
 import "../index.css";
-// import projectsData from "./data/Projects.json";
+import projectsData from "./data/Projects.json";
 import musicfy from "../images/Musicfy.png";
 import generatepassword1 from "../images/generatepassword1.png";
 import Weatherapp from "../images/Weatherapp.png";
@@ -21,7 +21,11 @@ const Portfolio = () => {
         <div className="row">
           <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div className="card h-100" style={{ width: "22rem" }}>
-              <a href="https://vilmaglynn.github.io/musicfy/" target="_blank">
+              <a
+                href="https://vilmaglynn.github.io/musicfy/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={musicfy}
                   className="card-img-top music-app"
@@ -53,6 +57,7 @@ const Portfolio = () => {
                   className="github"
                   href="https://github.com/grace-apa/musicfy"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub
                 </a>
@@ -64,6 +69,7 @@ const Portfolio = () => {
               <a
                 href="https://grace-apa.github.io/-password-generator/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src={generatepassword1}
@@ -93,6 +99,7 @@ const Portfolio = () => {
                   className="github"
                   href="https://github.com/grace-apa/-password-generator"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub
                 </a>
@@ -104,6 +111,7 @@ const Portfolio = () => {
               <a
                 href="https://grace-apa.github.io/Weather-dashboard/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src={Weatherapp}
@@ -133,6 +141,7 @@ const Portfolio = () => {
                   className="github"
                   href="https://github.com/grace-apa/Weather-dashboard"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub
                 </a>
@@ -148,6 +157,7 @@ const Portfolio = () => {
               <a
                 href="https://grace-apa.github.io/multiple-choice-quiz/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src={quizapp}
@@ -178,6 +188,7 @@ const Portfolio = () => {
                   className="github"
                   href="https://github.com/grace-apa/multiple-choice-quiz"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub
                 </a>
@@ -216,6 +227,7 @@ const Portfolio = () => {
                   className="github"
                   href="https://github.com/grace-apa/team-profile-generator"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub
                 </a>
@@ -227,6 +239,7 @@ const Portfolio = () => {
               <a
                 href="https://grace-apa.github.io/Bootstrap-Portfolio/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src={portfoliobootstrap}
@@ -257,6 +270,7 @@ const Portfolio = () => {
                   className="github"
                   href="https://github.com/grace-apa/Bootstrap-Portfolio?tab=readme-ov-file"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub
                 </a>

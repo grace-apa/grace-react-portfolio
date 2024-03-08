@@ -12,7 +12,11 @@ const LandingPage = () => {
             <img src={me} className="rounded" alt="personal portfolio photo" />
           </div>
           <h1 className="display-5 fw-bold fullName">Grace Apantaku</h1>
-          <a href="https://www.linkedin.com/in/graceapantaku/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/graceapantaku/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="btn btn-primary btn-lg button" type="button">
               From Influencer Marketer to Junior Frontend Developer
             </button>
@@ -24,6 +28,7 @@ const LandingPage = () => {
             <a
               href="https://github.com/grace-apa"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-primary links"
             >
               <strong>GitHub</strong>
@@ -31,6 +36,7 @@ const LandingPage = () => {
             <a
               href="https://www.linkedin.com/in/graceapantaku/"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-primary links"
             >
               <strong>LinkedIn</strong>
